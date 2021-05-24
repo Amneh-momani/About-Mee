@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: crimson;
+    font-size: 100px;
+    text-align: center;
+    padding: 40px;
+}
+
+nav{
+    text-align: center;
+    padding: 10px;
+}
+ul{
+    background: black;
+    padding: 25px;
+}
+li{
+    display:inline-block;
+    margin-right: 40px;
+}
+li a{
+    font-size:40px;
+    text-decoration: none;
+    color: burlywood;
+}
+li a:hover{
+    color: rgb(187, 65, 8);
+
+}
+p{
+    font-size: 30px;
+    padding: 40px;
+    line-height: 50px;
+    background: antiquewhite;
+}
+span{
+    color:chocolate;
+}
+
+footer{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background: wheat;
+}
