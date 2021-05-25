@@ -132,4 +132,4 @@ alert(`the options were "(${fav})"`);
 
 
 
-alert(`Nice to see you ${Name} your  point is ${point} out of 7`);
+alert(`Nice to see you ${Name} your points are ${point} out of 7`);
