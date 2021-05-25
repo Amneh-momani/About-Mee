@@ -1,5 +1,5 @@
 "use strict";
-
+let point=0;
 let Name=prompt("Input your name plz");
 alert("Hi "+Name+" ,welcome here.");
 
@@ -10,6 +10,7 @@ if(sport==="yes" || sport==="y"){
     alert("wrong answer because I don't exercise evey day");
 
 }else if(sport==="no" || sport==="n"){
+    point++;
     alert("right, I dont't exercise evey day");
 }else{
             alert("you have to answer by y/n or yes/no only");
@@ -22,6 +23,7 @@ lang=lang.toLowerCase();
 switch(lang){
     case 'yes':
     case 'y':
+        point++;
         alert("right ,my native language is Arabic");
         break;
        
@@ -40,6 +42,7 @@ country=country.toLowerCase();
 switch(country){
     case 'yes':
     case 'y':
+        point++;
         alert("yes ,I live in Jordan");
         break;
     case 'no':
@@ -58,6 +61,7 @@ web=web.toLowerCase();
 switch(web){
     case 'yes':
     case 'y':
+        point++;
         alert("you rigth, I'm web developer");
         break;
        
@@ -82,6 +86,7 @@ switch(work){
        
     case 'no':
     case 'n':
+        point++;
         alert("rigth,I don't work");
         break;
     default:
@@ -90,4 +95,4 @@ switch(work){
         break;
 }
 
-alert("Nice to see "+Name);
+alert("Nice to see you "+Name);
