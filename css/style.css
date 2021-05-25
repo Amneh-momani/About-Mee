@@ -33,16 +33,19 @@ nav{
 }
 main{
     background: antiquewhite;
-
 }
-p{
+#second{
     font-size: 30px;
     padding: 40px;
     line-height: 50px;
 }
-span{
-    color:chocolate;
+#second span{
+    color:#eba83a;
 }
+#second{
+    margin: 50px;
+    list-style: disc;
+    background: chocolate;}
 
 footer{
     font-size: 30px;
@@ -61,9 +64,12 @@ ol h4{
     color: aqua;
 }
 ol li{
-    margin: 20px;
+    text-align: center;
     padding: 20px;
     font-size: 28px;
     color: crimson;
     background: burlywood;
+    width: 30%;
+    margin: 20px 450px 0px 450px;
+
 }

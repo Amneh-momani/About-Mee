@@ -10,8 +10,8 @@ if(sport==="yes" || sport==="y"){
     alert("wrong answer because I don't exercise evey day");
 
 }else if(sport==="no" || sport==="n"){
-    point++;
-    alert("right, I dont't exercise evey day");
+  point++;
+  alert("right, I dont't exercise evey day");
 }else{
             alert("you have to answer by y/n or yes/no only");
 }
@@ -95,4 +95,41 @@ switch(work){
         break;
 }
 
-alert(`Nice to see you ${Name}`);
+for(let i=1;i<=4;i++){
+
+    let num=prompt("what do you think my lucky num 'It should be bt (0-10)'!!");
+
+if(num =='6'){
+    point++;
+    alert("your answer is correct");
+    break;
+}else if(num>6){
+    alert("too high");
+}else if(num<6){
+    alert("too low");
+}else{
+    alert("you should input only numbers");
+}
+}
+alert("the correct answer is '6'");
+
+
+let fav=["shopping","traveling","cooking","watching movies","video games"];
+
+for(let i=1;i<=6;i++){
+
+    let hobbies=prompt("guess  one of my hobby");
+      if(hobbies=="shopping" || hobbies=="traveling" || hobbies=="cooking" || hobbies=="watching movies"|| hobbies=="video games"){
+        point++; 
+        alert("your answer is correct");
+          break;
+      }else{
+        alert("your answer isn't correct");
+      }
+    
+}
+alert(`the options were "(${fav})"`);
+
+
+
+alert(`Nice to see you ${Name} your  point is ${point} out of 7`);
