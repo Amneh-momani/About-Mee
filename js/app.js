@@ -95,4 +95,4 @@ switch(work){
         break;
 }
 
-alert("Nice to see you "+Name);
+alert(`Nice to see you ${Name}`);
