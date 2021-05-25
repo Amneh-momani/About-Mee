@@ -118,7 +118,7 @@ let fav=["shopping","traveling","cooking","watching movies","video games"];
 
 for(let i=1;i<=6;i++){
 
-    let hobbies=prompt("guess  one of my hobby");
+    let hobbies=prompt("guess one of my hobbies");
       if(hobbies=="shopping" || hobbies=="traveling" || hobbies=="cooking" || hobbies=="watching movies"|| hobbies=="video games"){
         point++; 
         alert("your answer is correct");
