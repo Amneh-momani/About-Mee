@@ -97,25 +97,32 @@ function web()
 }
 web();
 
-let work=prompt('do I work?');
-work=work.toLowerCase();
+function work()
+{
 
-switch(work){
-case 'yes':
-case 'y':
-  alert('No, I don\'t work');
-  break;
+  let work=prompt('do I work?');
+  work=work.toLowerCase();
 
-case 'no':
-case 'n':
-  point++;
-  alert('rigth,I don\'t work');
-  break;
-default:
-  console.log('you have to answer by y/n or yes/no only');
-  alert('you have to answer by y/n or yes/no only');
-  break;
+  switch(work){
+  case 'yes':
+  case 'y':
+    alert('No, I don\'t work');
+    break;
+
+  case 'no':
+  case 'n':
+    point++;
+    alert('rigth,I don\'t work');
+    break;
+  default:
+    console.log('you have to answer by y/n or yes/no only');
+    alert('you have to answer by y/n or yes/no only');
+    break;
+  }
+
+
 }
+work();
 
 for(let i=1;i<=4;i++){
 
