@@ -124,23 +124,30 @@ function work()
 }
 work();
 
-for(let i=1;i<=4;i++){
+function luckynum()
+{
 
-  let num=prompt('what do you think my lucky num \'It should be bt (0-10)\'!!');
+  for(let i=1;i<=4;i++){
 
-  if(num === 6){
-    point++;
-    alert('your answer is correct');
-    break;
-  }else if(num>6){
-    alert('too high');
-  }else if(num<6){
-    alert('too low');
-  }else{
-    alert('you should input only numbers');
+    let num=prompt('what do you think my lucky num \'It should be bt (0-10)\'!!');
+
+    if(num === 6){
+      point++;
+      alert('your answer is correct');
+      break;
+    }else if(num>6){
+      alert('too high');
+    }else if(num<6){
+      alert('too low');
+    }else{
+      alert('you should input only numbers');
+    }
   }
+  alert('the correct answer is \'6\'');
+
 }
-alert('the correct answer is \'6\'');
+luckynum();
+
 
 
 let fav=['shopping','traveling','cooking','watching movies','video games'];
