@@ -149,25 +149,32 @@ function luckynum()
 luckynum();
 
 
-
 let fav=['shopping','traveling','cooking','watching movies','video games'];
 
-for(let i=1;i<=6;i++){
+function hobbies()
+{
 
-  let hobbies=prompt('guess one of my hobbies');
-  for(let j=0;j<fav.length;j++){
-    if(hobbies=== fav[j]){
-      point++;
-      alert('your answer is correct');
-      console.log('your answer is correct');
-      i=6;
+
+  for(let i=1;i<=6;i++){
+
+    let hobbies=prompt('guess one of my hobbies');
+    for(let j=0;j<fav.length;j++){
+      if(hobbies=== fav[j]){
+        point++;
+        alert('your answer is correct');
+        console.log('your answer is correct');
+        i=6;
+      }
     }
-  }
-  if(i<6){
-    alert('your answer isn\'t correct');
+    if(i<6){
+      alert('your answer isn\'t correct');
+    }
+
   }
 
 }
+hobbies();
+
 alert(`the options were "(${fav})"`);
 
 
