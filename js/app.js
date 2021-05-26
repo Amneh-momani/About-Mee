@@ -1,4 +1,5 @@
-"use strict";
+  "use strict";
+
 let point=0;
 let Name=prompt("Input your name plz");
 alert("Hi "+Name+" ,welcome here.");
@@ -7,7 +8,7 @@ let sport=prompt("do I exercise evey day?");
 sport=sport.toLowerCase();
 
 if(sport==="yes" || sport==="y"){
-    alert("wrong answer because I don't exercise evey day");
+ alert("wrong answer because I don't exercise evey day");
 
 }else if(sport==="no" || sport==="n"){
   point++;
@@ -119,13 +120,17 @@ let fav=["shopping","traveling","cooking","watching movies","video games"];
 for(let i=1;i<=6;i++){
 
     let hobbies=prompt("guess one of my hobbies");
-      if(hobbies=="shopping" || hobbies=="traveling" || hobbies=="cooking" || hobbies=="watching movies"|| hobbies=="video games"){
-        point++; 
-        alert("your answer is correct");
-          break;
-      }else{
-        alert("your answer isn't correct");
-      }
+    for(let j=0;j<fav.length;j++){
+        if(hobbies=== fav[j]){
+            point++;
+            alert("your answer is correct");  
+             console.log("your answer is correct");
+            i=6;
+        }
+}
+    if(i<6){
+    alert("your answer isn't correct");
+}
     
 }
 alert(`the options were "(${fav})"`);
