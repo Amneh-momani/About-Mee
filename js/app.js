@@ -48,25 +48,30 @@ function lang()
   }
 }
 lang();
+function country()
+{
 
-let country=prompt('do I live in Jordan?');
-country=country.toLowerCase();
+  let country=prompt('do I live in Jordan?');
+  country=country.toLowerCase();
 
-switch(country){
-case 'yes':
-case 'y':
-  point++;
-  alert('yes ,I live in Jordan');
-  break;
-case 'no':
-case 'n':
-  alert('wrong answer');
-  break;
-default:
-  alert('you have to answer by y/n or yes/no only');
-  break;
+  switch(country){
+  case 'yes':
+  case 'y':
+    point++;
+    alert('yes ,I live in Jordan');
+    break;
+  case 'no':
+  case 'n':
+    alert('wrong answer');
+    break;
+  default:
+    alert('you have to answer by y/n or yes/no only');
+    break;
 
+  }
 }
+country();
+
 
 let web=prompt('Am I web developer?');
 web=web.toLowerCase();
