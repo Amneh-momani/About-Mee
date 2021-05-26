@@ -131,7 +131,7 @@ function luckynum()
 
     let num=prompt('what do you think my lucky num \'It should be bt (0-10)\'!!');
 
-    if(num === 6){
+    if(num ==='6'){
       point++;
       alert('your answer is correct');
       break;
