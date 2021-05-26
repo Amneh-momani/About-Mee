@@ -72,26 +72,30 @@ function country()
 }
 country();
 
+function web()
+{
 
-let web=prompt('Am I web developer?');
-web=web.toLowerCase();
+  let web=prompt('Am I web developer?');
+  web=web.toLowerCase();
 
-switch(web){
-case 'yes':
-case 'y':
-  point++;
-  alert('you rigth, I\'m web developer');
-  break;
+  switch(web){
+  case 'yes':
+  case 'y':
+    point++;
+    alert('you rigth, I\'m web developer');
+    break;
 
-case 'no':
-case 'n':
-  alert('wrong answer, I\'m web developer');
-  break;
-default:
-  console.log('you have to answer by y/n or yes/no only');
-  alert('you have to answer by y/n or yes/no only');
-  break;
+  case 'no':
+  case 'n':
+    alert('wrong answer, I\'m web developer');
+    break;
+  default:
+    console.log('you have to answer by y/n or yes/no only');
+    alert('you have to answer by y/n or yes/no only');
+    break;
+  }
 }
+web();
 
 let work=prompt('do I work?');
 work=work.toLowerCase();
