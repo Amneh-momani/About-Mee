@@ -15,3 +15,7 @@
 So if there was many questions then that's mean I used many **prompts** to ask the user what I want and there were many attempts to give the user more chances to submite the correct answer and after these attempts it shows the correct answer to the user and I provided this thing by **for** statement .
 
 In HTML file I added 2 lists order and unorder lists,One of them contains _**my education**_ and 2nd one has _**Most places that I would like to visit**_ and it has 10  .
+
+
+I (Tareq) was the driver.
+Anmeh was the navigator.
