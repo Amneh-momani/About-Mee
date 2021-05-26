@@ -8,42 +8,46 @@ function sports()
 {
 
 
-let sport=prompt('do I exercise evey day?');
-sport=sport.toLowerCase();
+  let sport=prompt('do I exercise evey day?');
+  sport=sport.toLowerCase();
 
-if(sport==='yes' || sport==='y'){
-  alert('wrong answer because I don\'t exercise evey day');
+  if(sport==='yes' || sport==='y'){
+    alert('wrong answer because I don\'t exercise evey day');
 
-}else if(sport==='no' || sport==='n'){
-  point++;
-  alert('right, I dont\'t exercise evey day');
-}else{
-  alert('you have to answer by y/n or yes/no only');
-}
+  }else if(sport==='no' || sport==='n'){
+    point++;
+    alert('right, I dont\'t exercise evey day');
+  }else{
+    alert('you have to answer by y/n or yes/no only');
+  }
 
 }
 sports();
 
 
+function lang()
+{
 
-let lang=prompt('Is my native language Arabic?');
-lang=lang.toLowerCase();
+  let lang=prompt('Is my native language Arabic?');
+  lang=lang.toLowerCase();
 
-switch(lang){
-case 'yes':
-case 'y':
-  point++;
-  alert('right ,my native language is Arabic');
-  break;
+  switch(lang){
+  case 'yes':
+  case 'y':
+    point++;
+    alert('right ,my native language is Arabic');
+    break;
 
-case 'no':
-case 'n':
-  alert('wrong,my native language is Arabic');
-  break;
-default:
-  alert('you have to answer by y/n or yes/no only');
-  break;
+  case 'no':
+  case 'n':
+    alert('wrong,my native language is Arabic');
+    break;
+  default:
+    alert('you have to answer by y/n or yes/no only');
+    break;
+  }
 }
+lang();
 
 let country=prompt('do I live in Jordan?');
 country=country.toLowerCase();
@@ -108,7 +112,7 @@ for(let i=1;i<=4;i++){
 
   let num=prompt('what do you think my lucky num \'It should be bt (0-10)\'!!');
 
-  if(num =='6'){
+  if(num === 6){
     point++;
     alert('your answer is correct');
     break;
