@@ -2,8 +2,11 @@ body{
     margin: 0;
     padding: 0;
     background: antiquewhite;
-    font-family: 'Pattaya', sans-serif;}
-
+    font-family: 'Pattaya', sans-serif;
+}
+header{
+    position: relative;
+}
 h1{
     color: crimson;
     font-size: 100px;
@@ -33,9 +36,7 @@ nav{
     color: rgb(187, 65, 8);
 
 }
-/* main{
-    background: antiquewhite;
-} */
+
 #second{
     font-size: 30px;
     padding: 40px;
