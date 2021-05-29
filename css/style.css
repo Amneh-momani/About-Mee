@@ -2,8 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: antiquewhite;
-
-}
+    font-family: 'Pattaya', sans-serif;}
 
 h1{
     color: crimson;
@@ -34,9 +33,9 @@ nav{
     color: rgb(187, 65, 8);
 
 }
-main{
-    /* background: antiquewhite; */
-}
+/* main{
+    background: antiquewhite;
+} */
 #second{
     font-size: 30px;
     padding: 40px;
@@ -64,9 +63,9 @@ img{
     height: 500px;
 }
 ol{
-    /* background-image: url(../img/travel.jpg);
-    background-repeat: no-repeat; */
-    background:orangered;
+    background: black;
+    padding: 20px;
+
 }
 ol h4{
     font-size: 50px;
@@ -77,8 +76,8 @@ ol li{
     text-align: center;
     padding: 20px;
     font-size: 28px;
-    color: crimson;
-    background: burlywood;
+    color: #962d2d;
+    background: #fffbdf;
     width: 30%;
     margin: 20px 450px 0px 450px;
 
